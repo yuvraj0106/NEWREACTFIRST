@@ -1,0 +1,43 @@
+.product-image {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 260px;
+    width: 280px;
+    overflow: hidden;
+    padding: 8px;
+    
+}
+
+.product-image > img{
+    width: 100%;
+}
+
+
+.product-info  {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 250px; */
+    /* margin-right: 220px; */
+    font-size: 22px;
+}
+
+.loc-date {
+    display: flex;
+    justify-content: space-between;
+
+}
+.likeicon{
+    display: flex;
+    justify-content: end;
+    margin-top: -5px;
+
+}
+.likeicon a i{
+color: blue;
+font-size: larger;
+margin-right: 10px;
+
+
+}
+
